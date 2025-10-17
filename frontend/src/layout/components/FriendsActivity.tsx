@@ -43,7 +43,7 @@ const FriendsActivity = () => {
 										</Avatar>
 										<div
 											className={`absolute bottom-0 right-0 h-3 w-3 rounded-full border-2 border-zinc-900 
-												${onlineUsers.has(user.clerkId) ? "bg-yellow-500" : "bg-zinc-500"}
+												${onlineUsers.has(user.clerkId) ? "bg-emerald-500" : "bg-yellow-500"}
 												`}
 											aria-hidden='true'
 										/>
@@ -83,12 +83,12 @@ const LoginPrompt = () => (
 	<div className='h-full flex flex-col items-center justify-center p-6 text-center space-y-4'>
 		<div className='relative'>
 			<div
-				className='absolute -inset-1 bg-gradient-to-r from-emerald-500 to-sky-500 rounded-full blur-lg
+				className='absolute -inset-1 bg-gradient-to-r from-violet-500 to-yellow-500 rounded-full blur-lg
        opacity-75 animate-pulse'
 				aria-hidden='true'
 			/>
 			<div className='relative bg-zinc-900 rounded-full p-4'>
-				<HeadphonesIcon className='size-8 text-emerald-400' />
+				<HeadphonesIcon className='size-8 text-yellow-400' />
 			</div>
 		</div>
 
