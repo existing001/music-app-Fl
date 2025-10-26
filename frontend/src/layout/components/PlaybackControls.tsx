@@ -134,7 +134,7 @@ export const PlaybackControls = () => {
 				</div>
 				{/* volume controls */}
 				<div className='hidden sm:flex items-center gap-4 min-w-[180px] w-[30%] justify-end'>
-					<Button size='icon' variant='ghost' className='hover:text-white text-zinc-400'>
+					{/* <Button size='icon' variant='ghost' className='hover:text-white text-zinc-400'>
 						<Mic2 className='h-4 w-4' />
 					</Button>
 					<Button size='icon' variant='ghost' className='hover:text-white text-zinc-400'>
@@ -142,7 +142,7 @@ export const PlaybackControls = () => {
 					</Button>
 					<Button size='icon' variant='ghost' className='hover:text-white text-zinc-400'>
 						<Laptop2 className='h-4 w-4' />
-					</Button>
+					</Button> */}
 
 					<div className='flex items-center gap-2'>
 						<Button size='icon' variant='ghost' className='hover:text-white text-zinc-400'>
